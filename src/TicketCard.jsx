@@ -14,7 +14,7 @@ const Ticket = ({ ticket }) => {
       </div>
       <h3 className="ticket-title">{ticket.title}</h3>
       <div className="ticket-footer">
-        {/* <div>{ticket.userId}</div> */}
+        <div>{ticket.userId}</div>
         
         <div className="ticket-icon">!</div>
         <div className="ticket-label">{ticket.tag || 'Feature Request'}</div>
